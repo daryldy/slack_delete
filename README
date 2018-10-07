@@ -1,0 +1,12 @@
+Test
+====
+
+. venv/bin/activate
+python3 slack_delete.py
+
+
+Build Executable
+================
+
+. venv/bin/activate
+pyinstaller --onefile slack_delete.py
